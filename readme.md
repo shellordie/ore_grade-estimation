@@ -11,9 +11,7 @@ Network Systems – A Case Study](https://www.academia.edu/20216644/ore_grade_es
 
 ![normalization](./rsc/normalize.PNG)
 
-source : [Importance of input data normalization for the application of neural
-networks to complex industrial
-problems](https://ieeexplore.ieee.org/document/589532)
+source : [A New Ore Grade Estimation Using Combine Machine Learning Algorithms](https://www.mdpi.com/2075-163X/10/10/847)
 
 ## Run 
 
