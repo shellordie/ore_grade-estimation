@@ -5,11 +5,11 @@ Network Systems – A Case Study](https://www.academia.edu/20216644/ore_grade_es
 
 ## Dataset 
 
-![dataset](./src/dataset.PNG)
+![dataset](./rsc/dataset.PNG)
 
 ## Normalization
 
-![normalization] (./scr/normalize.PNG)
+![normalization] (./rsc/normalize.PNG)
 source : [Importance of input data normalization for the application of neural
 networks to complex industrial
 problems](https://ieeexplore.ieee.org/document/589532)
