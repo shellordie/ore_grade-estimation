@@ -1,0 +1,650 @@
+====================RUN START====================
+2023-12-04 17:03:49.538762
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+====================RUN START====================
+2023-12-04 17:04:57.210623
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+====================RUN START====================
+2023-12-04 17:05:15.663750
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,128)
+  [x]self.fc3=nn.Linear(128,1)
+  [x]activation: relu
+====================RUN START====================
+2023-12-04 17:07:50.824059
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,128)
+  [x]self.fc3=nn.Linear(128,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 10
+  [x]min_delta 10
+====================RUN START====================
+2023-12-04 17:09:26.433445
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,128)
+  [x]self.fc3=nn.Linear(128,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 10
+  [x]min_delta 10
+METRICS
+------------
+  [x]train_rmse 4.879900932312012
+  [x]val_rmse 3.381330728530884
+  [x]test_rmse 3.956697940826416
+====================RUN START====================
+2023-12-04 17:11:05.730323
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,128)
+  [x]self.fc3=nn.Linear(128,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 10
+  [x]min_delta 10
+METRICS
+------------
+  [x]train_rmse 4.879900932312012
+  [x]val_rmse 3.381330728530884
+  [x]test_rmse 3.956697940826416
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 18:47:14.972042
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,128)
+  [x]self.fc3=nn.Linear(128,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 10
+  [x]min_delta 10
+METRICS
+------------
+  [x]train_rmse 4.650413990020752
+  [x]val_rmse 3.2967593669891357
+  [x]test_rmse 3.8538897037506104
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 18:50:23.544732
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,128)
+  [x]self.fc3=nn.Linear(128,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 10
+METRICS
+------------
+  [x]train_rmse 4.879900932312012
+  [x]val_rmse 3.381330728530884
+  [x]test_rmse 3.956697940826416
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 18:52:18.869094
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc3=nn.Linear(64,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 10
+METRICS
+------------
+  [x]train_rmse 4.916456699371338
+  [x]val_rmse 4.343681335449219
+  [x]test_rmse 3.747061252593994
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 18:54:00.698773
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc3=nn.Linear(64,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 10
+METRICS
+------------
+  [x]train_rmse 4.952436447143555
+  [x]val_rmse 4.2337446212768555
+  [x]test_rmse 3.5837440490722656
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 18:56:01.300212
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc3=nn.Linear(64,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 10
+====================RUN START====================
+2023-12-04 18:58:17.459430
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc3=nn.Linear(64,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+====================RUN START====================
+2023-12-04 18:59:16.887619
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc3=nn.Linear(64,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 20
+METRICS
+------------
+  [x]train_rmse 4.916456699371338
+  [x]val_rmse 4.343681335449219
+  [x]test_rmse 3.747061252593994
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 19:00:24.828017
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc3=nn.Linear(64,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 20
+METRICS
+------------
+  [x]train_rmse 4.952436447143555
+  [x]val_rmse 4.2337446212768555
+  [x]test_rmse 3.5837440490722656
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 19:03:40.836230
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc3=nn.Linear(64,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 20
+METRICS
+------------
+  [x]train_rmse 4.980189800262451
+  [x]val_rmse 4.042754173278809
+  [x]test_rmse 3.42449688911438
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 19:17:19.889955
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc2=nn.Linear(64,32)
+  [x]self.fc3=nn.Linear(32,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 20
+METRICS
+------------
+  [x]train_rmse 4.645061016082764
+  [x]val_rmse 4.417661666870117
+  [x]test_rmse 3.1556949615478516
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 19:20:15.824134
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc2=nn.Linear(64,32)
+  [x]self.fc3=nn.Linear(32,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 20
+METRICS
+------------
+  [x]train_rmse 4.063721656799316
+  [x]val_rmse 3.4637420177459717
+  [x]test_rmse 3.4154579639434814
+====================RUN END====================
+
+====================RUN START====================
+2023-12-04 19:23:40.230867
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc2=nn.Linear(64,32)
+  [x]self.fc3=nn.Linear(32,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 20
+METRICS
+------------
+  [x]train_rmse 3.8801589012145996
+  [x]val_rmse 3.183637857437134
+  [x]test_rmse 3.729743480682373
+====================RUN END====================
+
+====================RUN START====================
+2023-12-06 09:15:20.114488
+PREPROCESSING
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+MODEL
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc2=nn.Linear(64,32)
+  [x]self.fc3=nn.Linear(32,1)
+  [x]activation: relu
+TRAINING
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 20
+====================RUN START====================
+2023-12-06 09:17:11.601665
+Preprocessing
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+Model
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc2=nn.Linear(64,32)
+  [x]self.fc3=nn.Linear(32,1)
+  [x]activation: relu
+Training
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 20
+====================RUN START====================
+2023-12-06 09:32:04.457979
+Preprocessing
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+====================RUN START====================
+2023-12-06 10:11:20.391428
+Preprocessing
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+Model
+------------
+  [x]self.fc1=nn.Linear(2,64)
+  [x]self.fc2=nn.Linear(64,32)
+  [x]self.fc3=nn.Linear(32,1)
+  [x]activation: relu
+Training
+------------
+  [x]criterion L1Loss()
+  [x]optimizer Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+  [x]model name ore_grade_net
+  [x]patience 5
+  [x]min_delta 20
+====================RUN START====================
+2023-12-06 14:44:10.753484
+Preprocessing
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+====================RUN START====================
+2023-12-06 14:45:43.679040
+Preprocessing
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+====================RUN START====================
+2023-12-06 14:46:24.180865
+Preprocessing
+------------
+  [x]normalization||a_norm=abs(a-mean(a_feature)/std(a_feature))
+============================================================
+[512, 2048]GA
